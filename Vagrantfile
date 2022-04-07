@@ -3,8 +3,8 @@ Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/bionic64"
   config.vm.define "master" do | w |
   w.vm.hostname = "master"
-  w.vm.network "private_network", ip: "192.168.33.13"
-  w.vm.network "private_network", ip: "192.168.33.2"
+  w.vm.network "private_network", ip: "192.168.33.12"
+  w.vm.network "private_network", ip: "192.168.33.11"
 
   w.vm.provider "virtualbox" do |vb|
     vb.memory = "4096"
