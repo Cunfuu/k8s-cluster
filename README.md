@@ -1,8 +1,8 @@
 # k8s-cluster
+# most of the stuff here is WIP please post your issues maybe try to contact me :3 
 
 
-
-spin up three node cluster
+spin up three node cluster with two different ips one is for nat the other is k8 connectinos (WIP)
 
 * 192.168.33.11 -192.168.33.12 master
 * 192.168.33.13 -192.168.33.14 worker-1
